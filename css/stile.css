@@ -1,0 +1,65 @@
+body{
+    font-family: 'Bangers', cursive;
+   max-width: 1000px;
+   margin: 0 auto;
+   box-sizing:border-box;
+   background-image:url(../imagenes/)
+   
+   
+   
+}
+  
+.img-logo{
+
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin:0 auto;
+    padding-top: 20px;
+}
+
+nav{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    padding: 5px 200px 10px 200px;
+    
+}
+
+.bar-nerr{
+
+    width:  100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+nav ul li{
+
+  display: inline-flex;
+  padding: 10px 10px;
+  border-right: 1px solid white;
+  transition: 0.9s all;
+ 
+}
+
+    
+nav ul :hover{
+
+ background-color: rgb(77, 74, 74);
+
+}
+
+    
+nav ul li a{
+
+text-decoration: none;
+color: azure;
+
+}
+
+.icon-instagram:before {
+    content: "\e901";
+  }
